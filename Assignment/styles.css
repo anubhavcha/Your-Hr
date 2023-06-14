@@ -1,0 +1,251 @@
+/* Add your custom CSS styles here */
+/* You can define colors, typography, layout, etc. */
+
+/* Example styles for the header section */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: rgb(138, 213, 238);
+
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  h1 a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f16a6a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  /* Example styles for the hero section */
+  .hero {
+    background-image: url("image_data/bg-job-offers.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  /* Example styles for other sections */
+  .services {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .services h3 {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .service-card {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin: 03%;
+    padding: 40px;
+    background-color: #25e6ff;
+    box-shadow: 0 0 10px rgba(109, 77, 77, 0.1);
+  }
+  .service-card {
+    position: relative;
+    perspective: 1000px;
+  }
+  
+  .service-card:hover {
+    transform: rotateY(10deg);
+  }
+  
+  .service-card:hover::before {
+    transform: translateZ(15px);
+  }
+  
+  .service-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(109, 99, 99, 0.2);
+    transform-origin: left center;
+    transform: translateZ(-15px);
+    transition: transform 0.3s;
+    pointer-events: none;
+    z-index: -1;
+  }
+  
+  .service-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .service-card h4, .service-card p {
+    margin: 10px 0;
+  }
+  
+  .service-card .cta-button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #0077ff;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .service-card .cta-button:hover {
+    background-color: #f393e6;
+  }
+  
+  
+  .service-card img {
+    width: 80px;
+    margin-bottom: 80px;
+  }
+  
+  .newsletter,
+  .resume-submission {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .newsletter h3,
+  .resume-submission h3 {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  
+  form input,
+  form textarea {
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #00ff40;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .testimonials {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .testimonial-slide {
+    display: none;
+  }
+  
+  /* Example styles for the footer section */
+  footer {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  /* Add more styles as needed */
+  /* CSS code for logo */
+
+/* CSS code for logo */
+
+.logo {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.logo img {
+  display: block;
+  width: 60px; /* Adjust the width and height as needed */
+  height: 60px;
+  border-radius: 50%; /* Make the image circular */
+  object-fit: cover; /* Ensure the image fills the circular container */
+}
+
+/* Other CSS code */
+
+/* Rest of your CSS styles for the landing page */
+body{
+  background: #25e6ff;
+}
+footer{
+  background-color: #25e6ff;
+}
+section{
+  background-color: #25e6ff;
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
+
+footer {
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+footer p {
+  font-size: 14px;
+  color: #777777;
+}
